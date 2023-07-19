@@ -77,7 +77,7 @@ function App(props) {
       <form className={classes.searchRoot} noValidate autoComplete="off">
         <TextField
           id="standard-basic"
-          label="Enter your keyword to search"
+          label="Enter your keyword to search..."
           type="text"
           value={query}
           onChange={event => setQuery(event.target.value)}
